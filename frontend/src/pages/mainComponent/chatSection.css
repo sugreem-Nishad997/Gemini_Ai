@@ -1,0 +1,31 @@
+.chatSection-container{
+    background-color: antiquewhite;
+    height: 80vh;
+    max-width: 50vw;
+    overflow: auto;
+    margin-bottom: 0.5rem;
+}
+.chatSection-container::-webkit-scrollbar{
+    display: none;
+}
+.send{
+    background-color:rgb(51, 152, 199);
+    max-height: fit-content;
+    max-width: fit-content;
+    color: white;
+    padding-inline: 1rem;
+    border-radius: 0.5rem;
+    position: relative;
+    left: 2%;
+    top: 1%;
+}
+.receive{
+    position: relative;
+    max-width: 20rem;
+    max-height: fit-content;
+    background-color:rgb(132, 158, 214);
+    color: white;
+    padding-inline: 1rem;
+    border-radius: 0.5rem;
+    left: 45%;
+}

@@ -1,0 +1,54 @@
+.allUser-container{
+    margin-left: -3rem;
+}
+.allUser-header{
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+}
+.allUser-header h1{
+    margin-right: 2rem;
+}
+.allUser-count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.count{
+    margin-left: 1.5rem;
+    background-color: aqua;
+    border-radius: 40%;
+    width: 2.5rem;
+    height: 1.5rem;
+    text-align: center;
+}
+.user-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.user{
+    height: 5rem;
+    width: 20vw;
+    background-color: rgb(105, 69, 202);
+    opacity: 0.5;
+    border-radius: 0.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+.user1{
+    height: 5rem;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    opacity: 1;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.avatar{
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+}

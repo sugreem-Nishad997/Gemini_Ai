@@ -1,0 +1,11 @@
+.inputSection-input{
+    height: 4rem;
+    border: 0.2rem solid rgb(197, 197, 197);
+    border-radius: 0.5rem;
+    width: 50vw;
+}
+.inputSection-input input{
+    height: 2rem;
+    width: 48vw;
+    border: none;
+}
