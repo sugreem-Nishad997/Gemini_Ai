@@ -22,7 +22,7 @@ export const ChatProvider = ({children}) => {
     //const [loader, setLoader] = useState(true);
 
     const client = axios.create({
-        baseURL: "http://localhost:8080"
+        baseURL: "https://gemini-ai-three-orpin.vercel.app/"
     });
 
     const findAllUsers = async () => {
