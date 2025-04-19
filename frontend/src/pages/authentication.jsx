@@ -19,7 +19,7 @@ export default function authentication () {
     const {setSelectedUser,setLastLogedIn} = useContext(ChatContext);
 
     const client = axios.create({
-        baseURL: "https://gemini-ai-backend-rosy.vercel.app"
+        baseURL: "https://gemini-ai-backend-pf3n.onrender.com"
     });
 
     const router = useNavigate();
