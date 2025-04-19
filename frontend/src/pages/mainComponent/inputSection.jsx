@@ -42,6 +42,7 @@ export default function inputSection() {
         component="form"
         sx={{ display: 'flex', alignItems: 'center', width: '50vw' }}
         variant='outlined'
+        onKeyDown={(e) =>e.preventDefault()}
       >
         <IconButton sx={{ p: '10px' }} aria-label="menu">
         </IconButton>
