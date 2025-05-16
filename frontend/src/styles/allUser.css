@@ -1,5 +1,6 @@
 .allUser-container{
     margin-left: -3rem;
+    overflow: auto;
 }
 .allUser-header{
     display: flex;
